@@ -26,7 +26,6 @@ include('boots.php');
 
 
 <?php 
-include('nav.php');
 //session_start();
 $con=new mysqli("localhost","root","","dac");
 if($con->connect_errno!=0){
